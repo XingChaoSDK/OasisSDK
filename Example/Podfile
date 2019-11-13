@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OasisSDK_Tests' do
+  pod 'OasisSDK', :path => '../'
+  
+  
+end
