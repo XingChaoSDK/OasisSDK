@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D612DC564A867097145D8EB28A2737B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		346B5C4477E6E90557ADAB7FD64B3C96 /* Pods-OasisSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D9566C5D0C6760705495EAE1BE1F3 /* Pods-OasisSDK_Tests-dummy.m */; };
+		4158ED2E19BE1C570DACC7B1B39A1991 /* Pods-OasisSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBDCD93FBB533A588843977541D02F3 /* Pods-OasisSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1B28642ADA8AB4FC01707AA8C1E599 /* OasisSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3196C3834D394A8E7A2B87452720F4AB /* OasisSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0824D8023ED0071F3FBB6DD31426F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D693488BCC5A9C76A1E7AA1CD52DADAC /* OasisSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BAEC498D5A7AECD625BDE875CF4AF9 /* OasisSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE207F6B92633F0D152139909B2B67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923E985040BF018A578EF3E492F42166;
+			remoteInfo = OasisSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B257B41F740C57C33792C67A7CCBC4D /* Pods-OasisSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OasisSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12D9ABAA27F4F0F555206E2DD76DFCA5 /* Pods-OasisSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OasisSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3196C3834D394A8E7A2B87452720F4AB /* OasisSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OasisSDK-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35A363C822A78709E0C00A04898CBD39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B706A9A77ED12E2AA6323D9099D665A /* Pods-OasisSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OasisSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		5FBDCD93FBB533A588843977541D02F3 /* Pods-OasisSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OasisSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		74D044394D4DE3883FF34242CA557BF7 /* OasisSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OasisSDK-Info.plist"; sourceTree = "<group>"; };
+		772853F895AB4CAD9A3F9B855E7F2D11 /* OasisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OasisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87D5508F1791540686EC373FF7D642D1 /* Pods-OasisSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OasisSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8983670E93C696E71C36B0E3C4B9F201 /* Pods-OasisSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OasisSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9586D62C6046A8ECDD99E35EBA71168D /* OasisSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OasisSDK.xcconfig; sourceTree = "<group>"; };
+		9A1E28FBBD425491B2E25A1031608500 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9BEB95ED89CABD52C949606016D744F4 /* OasisSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OasisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A833B65CADD030C3EC74B2EFCA1875DA /* OasisSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OasisSDK-prefix.pch"; sourceTree = "<group>"; };
+		A98871A57D1780639B3FCEE42ABFB3DD /* Pods-OasisSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OasisSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1D9566C5D0C6760705495EAE1BE1F3 /* Pods-OasisSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OasisSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8C861A4C8DC877AA6F14A892B7884A7 /* Pods-OasisSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OasisSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OasisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95654486BBB78C5D60422F1F3DC757 /* OasisSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OasisSDK.modulemap; sourceTree = "<group>"; };
+		F3BAEC498D5A7AECD625BDE875CF4AF9 /* OasisSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OasisSDK-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397A9CA73918D7E50E26352E17B8BD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D612DC564A867097145D8EB28A2737B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F188ECCD0ABD99DBAF12CFD0E47D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0824D8023ED0071F3FBB6DD31426F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EEFEDD237EA14691DCBE3A5E16399E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BEB95ED89CABD52C949606016D744F4 /* OasisSDK.framework */,
+				C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0291C57D5F4A1952C24875FD2F4FF7CE /* OasisSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8352BD1F18879FBB41AFB3C6B34C3721 /* Pod */,
+				FBB829E1515B7FFB0F058C487A866190 /* Support Files */,
+			);
+			name = OasisSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2C92A2967071C263B62225A86AA4A4C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0291C57D5F4A1952C24875FD2F4FF7CE /* OasisSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3CB164B8BF1C83C6F28327D5DAA473E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B699F3E5427FD73504B8AC4A18D5AA26 /* Pods-OasisSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8352BD1F18879FBB41AFB3C6B34C3721 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A1E28FBBD425491B2E25A1031608500 /* LICENSE */,
+				772853F895AB4CAD9A3F9B855E7F2D11 /* OasisSDK.podspec */,
+				35A363C822A78709E0C00A04898CBD39 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B699F3E5427FD73504B8AC4A18D5AA26 /* Pods-OasisSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B706A9A77ED12E2AA6323D9099D665A /* Pods-OasisSDK_Tests.modulemap */,
+				12D9ABAA27F4F0F555206E2DD76DFCA5 /* Pods-OasisSDK_Tests-acknowledgements.markdown */,
+				0B257B41F740C57C33792C67A7CCBC4D /* Pods-OasisSDK_Tests-acknowledgements.plist */,
+				AA1D9566C5D0C6760705495EAE1BE1F3 /* Pods-OasisSDK_Tests-dummy.m */,
+				8983670E93C696E71C36B0E3C4B9F201 /* Pods-OasisSDK_Tests-frameworks.sh */,
+				C8C861A4C8DC877AA6F14A892B7884A7 /* Pods-OasisSDK_Tests-Info.plist */,
+				5FBDCD93FBB533A588843977541D02F3 /* Pods-OasisSDK_Tests-umbrella.h */,
+				A98871A57D1780639B3FCEE42ABFB3DD /* Pods-OasisSDK_Tests.debug.xcconfig */,
+				87D5508F1791540686EC373FF7D642D1 /* Pods-OasisSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-OasisSDK_Tests";
+			path = "Target Support Files/Pods-OasisSDK_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2C92A2967071C263B62225A86AA4A4C0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				00EEFEDD237EA14691DCBE3A5E16399E /* Products */,
+				3CB164B8BF1C83C6F28327D5DAA473E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB829E1515B7FFB0F058C487A866190 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD95654486BBB78C5D60422F1F3DC757 /* OasisSDK.modulemap */,
+				9586D62C6046A8ECDD99E35EBA71168D /* OasisSDK.xcconfig */,
+				F3BAEC498D5A7AECD625BDE875CF4AF9 /* OasisSDK-dummy.m */,
+				74D044394D4DE3883FF34242CA557BF7 /* OasisSDK-Info.plist */,
+				A833B65CADD030C3EC74B2EFCA1875DA /* OasisSDK-prefix.pch */,
+				3196C3834D394A8E7A2B87452720F4AB /* OasisSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OasisSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6904C90D0788CB1A19CE2537ECC6E906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1B28642ADA8AB4FC01707AA8C1E599 /* OasisSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD55C16F7CE0C1A953461B27DF77846C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4158ED2E19BE1C570DACC7B1B39A1991 /* Pods-OasisSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		923E985040BF018A578EF3E492F42166 /* OasisSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DA2B5A5099780DFE5E245FE5B38597 /* Build configuration list for PBXNativeTarget "OasisSDK" */;
+			buildPhases = (
+				6904C90D0788CB1A19CE2537ECC6E906 /* Headers */,
+				DFE6F1D4E07612BB75BD3E513209D349 /* Sources */,
+				397A9CA73918D7E50E26352E17B8BD50 /* Frameworks */,
+				F09DFC90155E6BAD8117A9EF06798B44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OasisSDK;
+			productName = OasisSDK;
+			productReference = 9BEB95ED89CABD52C949606016D744F4 /* OasisSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C763BB24FD756B23B35F36690B5CB3D1 /* Pods-OasisSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A86FC4AAD6B60CD853A4AF6B35268C /* Build configuration list for PBXNativeTarget "Pods-OasisSDK_Tests" */;
+			buildPhases = (
+				AD55C16F7CE0C1A953461B27DF77846C /* Headers */,
+				1D6FCDB75155A786D06F9568F1D9824E /* Sources */,
+				60F188ECCD0ABD99DBAF12CFD0E47D72 /* Frameworks */,
+				7D094025A82C3BA1F66783BFE9668B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA8FFF78CA8B325CBC6F89D020BA0EB /* PBXTargetDependency */,
+			);
+			name = "Pods-OasisSDK_Tests";
+			productName = "Pods-OasisSDK_Tests";
+			productReference = C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 00EEFEDD237EA14691DCBE3A5E16399E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923E985040BF018A578EF3E492F42166 /* OasisSDK */,
+				C763BB24FD756B23B35F36690B5CB3D1 /* Pods-OasisSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D094025A82C3BA1F66783BFE9668B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DFC90155E6BAD8117A9EF06798B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6FCDB75155A786D06F9568F1D9824E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346B5C4477E6E90557ADAB7FD64B3C96 /* Pods-OasisSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE6F1D4E07612BB75BD3E513209D349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D693488BCC5A9C76A1E7AA1CD52DADAC /* OasisSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CA8FFF78CA8B325CBC6F89D020BA0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OasisSDK;
+			target = 923E985040BF018A578EF3E492F42166 /* OasisSDK */;
+			targetProxy = 6AE207F6B92633F0D152139909B2B67D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2659FC2BF697469076DBD18FFF77E2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9586D62C6046A8ECDD99E35EBA71168D /* OasisSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OasisSDK/OasisSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OasisSDK/OasisSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OasisSDK/OasisSDK.modulemap";
+				PRODUCT_MODULE_NAME = OasisSDK;
+				PRODUCT_NAME = OasisSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DA769B2731A50F5C70A20D010EFBD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98871A57D1780639B3FCEE42ABFB3DD /* Pods-OasisSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BD14ACD8D83C822840E5699D3E5DB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9586D62C6046A8ECDD99E35EBA71168D /* OasisSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OasisSDK/OasisSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OasisSDK/OasisSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OasisSDK/OasisSDK.modulemap";
+				PRODUCT_MODULE_NAME = OasisSDK;
+				PRODUCT_NAME = OasisSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC5698DAB33C1413B4DA7898B040BDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D5508F1791540686EC373FF7D642D1 /* Pods-OasisSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DA2B5A5099780DFE5E245FE5B38597 /* Build configuration list for PBXNativeTarget "OasisSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2659FC2BF697469076DBD18FFF77E2A9 /* Debug */,
+				9BD14ACD8D83C822840E5699D3E5DB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A86FC4AAD6B60CD853A4AF6B35268C /* Build configuration list for PBXNativeTarget "Pods-OasisSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA769B2731A50F5C70A20D010EFBD8C /* Debug */,
+				DC5698DAB33C1413B4DA7898B040BDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

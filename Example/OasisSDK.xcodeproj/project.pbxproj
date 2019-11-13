@@ -26,10 +26,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		621C14F9CB6D4886BC3F056F /* Pods-OasisSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OasisSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67AB895C2DA099BF299383E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67AB895C2DA099BF299383E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7333306179379C7DBD3A22DB /* Pods_OasisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OasisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31222670CF1925625942370 /* OasisSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OasisSDK.podspec; path = ../OasisSDK.podspec; sourceTree = "<group>"; };
-		C8A7EA37DEE549551BA45E82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C31222670CF1925625942370 /* OasisSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OasisSDK.podspec; path = ../OasisSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8A7EA37DEE549551BA45E82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5EA0B41E574DC05D4C99A4D /* Pods-OasisSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OasisSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OasisSDK_Tests/Pods-OasisSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				E5EA0B41E574DC05D4C99A4D /* Pods-OasisSDK_Tests.debug.xcconfig */,
 				621C14F9CB6D4886BC3F056F /* Pods-OasisSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

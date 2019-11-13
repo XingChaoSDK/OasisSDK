@@ -1,0 +1,16 @@
+PODS:
+  - OasisSDK (0.1.0)
+
+DEPENDENCIES:
+  - OasisSDK (from `../`)
+
+EXTERNAL SOURCES:
+  OasisSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OasisSDK: b62be3a0e2e4bdeba50af21ea9b4ce7de44f7db4
+
+PODFILE CHECKSUM: 4023c006070226a9f921564d080d9c4a15a3aa2e
+
+COCOAPODS: 1.8.4

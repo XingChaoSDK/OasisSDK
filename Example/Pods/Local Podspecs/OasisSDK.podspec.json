@@ -1,0 +1,22 @@
+{
+  "name": "OasisSDK",
+  "version": "0.1.0",
+  "summary": "A short description of OasisSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jianchengpan/OasisSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jianchengpan": "jianchengpan327@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jianchengpan/OasisSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OasisSDK/Classes/**/*"
+}
