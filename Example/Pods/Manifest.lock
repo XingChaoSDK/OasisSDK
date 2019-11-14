@@ -1,5 +1,5 @@
 PODS:
-  - OasisSDK (0.1.0)
+  - OasisSDK (1.0.1)
 
 DEPENDENCIES:
   - OasisSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OasisSDK: b62be3a0e2e4bdeba50af21ea9b4ce7de44f7db4
+  OasisSDK: 44949347f3eca5ae61fee7b69dc768ecebc25bd5
 
 PODFILE CHECKSUM: 4023c006070226a9f921564d080d9c4a15a3aa2e
 
