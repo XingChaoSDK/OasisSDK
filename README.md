@@ -22,14 +22,14 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 
 ### 设置app
 
-* 为了使绿洲客户端在处理请求后返回你的app，你需要在Scheme列表中添加一个scheme,scheme格式为 "oasis"+"你的appKey",例如appkey为"123456",则scheme为"wb123456"。appKey为你在微博开放平台注册app时，为你分配的AppKey。
+* 为了使绿洲客户端在处理请求后返回你的app，你需要在Scheme列表中添加一个scheme,scheme格式为 "oasis"+"你的appKey",例如appkey为"123456",则scheme为"oasis123456"。appKey为你在微博开放平台注册app时，为你分配的AppKey。
 
 *  为了检测绿洲app是否已经安装，你需要在info.plist中添加以下设置:
 ```
-    key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>oasis</string>
-	</array>
+key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>oasis</string>
+</array>
 ```
 
 ### 启动sdk
@@ -58,25 +58,25 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 在分享动态时，首先实例化分享请求(OasisShareRequest),并添加需要分享的信息:
 
 ```
-    //实例化
-    OasisShareRequest *req = [OasisShareRequest new];
-    //设置分享标题（可选）
-    req.title = @"分享标题";
-    //设置分享文字内容
-    req.content = @"分享内容";
+//实例化
+OasisShareRequest *req = [OasisShareRequest new];
+//设置分享标题（可选）
+req.title = @"分享标题";
+//设置分享文字内容
+req.content = @"分享内容";
 
-    //添加媒体信息
-    OasisImageObject *image = [OasisImageObject new];
-    image.imagaData = data;
-    if(![req append:image]){
-        //添加媒体失败
-    }
+//添加媒体信息
+OasisImageObject *image = [OasisImageObject new];
+image.imagaData = data;
+if(![req append:image]){
+    //添加媒体失败
+}
 
 
-    if(![OasisSDK sendReq:req])
-    {
-        //发送请求失败
-    }
+if(![OasisSDK sendReq:req])
+{
+    //发送请求失败
+}
 
 ```
 
@@ -121,7 +121,7 @@ video.fileExtension = ".mov"; //视频data需要提供正确的文件扩展名
 
 #### 处理响应
 
-在绿洲处理完请求过后,会通过注册的scheme("wb"+appkey)回传数据，你需要在以下方法中处理响应信息:
+在绿洲处理完请求过后,会通过注册的scheme("oasis"+appkey)回传数据，你需要在以下方法中处理响应信息:
 
 ```
 
