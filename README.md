@@ -22,7 +22,7 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 
 ### 设置app
 
-* 为了使绿洲客户端在处理请求后返回你的app，你需要在Scheme列表中添加一个scheme,scheme格式为 "wb"+"你的appKey",例如appkey为"123456",则scheme为"wb123456"。appKey为你在微博开放平台注册app时，为你分配的AppKey。
+* 为了使绿洲客户端在处理请求后返回你的app，你需要在Scheme列表中添加一个scheme,scheme格式为 "oasis"+"你的appKey",例如appkey为"123456",则scheme为"wb123456"。appKey为你在微博开放平台注册app时，为你分配的AppKey。
 
 *  为了检测绿洲app是否已经安装，你需要在info.plist中添加以下设置:
 ```
