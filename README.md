@@ -61,9 +61,9 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
     //实例化
     OasisShareRequest *req = [OasisShareRequest new];
     //设置分享标题（可选）
-    req.title = self.titleTextField.text;
+    req.title = @"分享标题";
     //设置分享文字内容
-    req.content = self.contentTextField.text;
+    req.content = @"分享内容";
 
     //添加媒体信息
     OasisImageObject *image = [OasisImageObject new];
