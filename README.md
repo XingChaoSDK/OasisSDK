@@ -12,11 +12,16 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 
 * 通过Cocoapods安装
 
-1. 先安装Cocoapods；
-2. 通过 pod repo update 更新OasisSDK的cocoapods版本。
-3. 在Podfile对应的target中，添加pod 'OasisSDK'，并执行pod install --verbose。
-4. 在项目中使用CocoaPods生成的.xcworkspace运行工程。
-5. 在你的代码头文件中引入头文件 #import "OasisSDK.h"
+1. 在Podfile对应的target中，添加pod 'OasisSDK'。
+2. 运行 `pod install ` 或者 `pod update`。
+3. 引入头文件 #import "OasisSDK.h"。
+
+* 手动导入
+
+1. 下载文件夹 OasisSDK/Classes 下的 include 和libs文件夹。
+2. 将 include 和libs添加到你的工程中。
+3. 在Build Settings->Other Linker Flags 中添加 `-ObjC` 和 `-all_load`。
+3. 引入头文件 #import "OasisSDK.h"。
 
 ## 使用
 
@@ -24,7 +29,7 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 
 * 为了使绿洲客户端在处理请求后返回你的app，你需要在Scheme列表中添加一个scheme,scheme格式为 "oasis"+"你的appKey",例如appkey为"123456",则scheme为"oasis123456"。appKey为你在微博开放平台注册app时，为你分配的AppKey。
 
-*  为了检测绿洲app是否已经安装，你需要在info.plist中添加以下设置:
+*  为了检测绿洲app是否已经安装，你需要在info.plist中添加以下设置：
 ```
 key>LSApplicationQueriesSchemes</key>
 <array>
@@ -55,7 +60,7 @@ key>LSApplicationQueriesSchemes</key>
 
 #### 发送请求
 
-在分享动态时，首先实例化分享请求(OasisShareRequest),并添加需要分享的信息:
+在分享动态时，首先实例化分享请求(OasisShareRequest),并添加需要分享的信息：
 
 ```
 //实例化
@@ -93,7 +98,7 @@ OasisImageObject *image = [OasisImageObject new];
 //通过 data交换媒体数据
 image.imagaData = data;
 
-//通过PHAsset 交换数据
+//或通过PHAsset 交换数据
 //image.asset = asset;
 
 [req append:image]
@@ -110,9 +115,9 @@ OasisImageObject *image = [OasisVideoObject new];
 
 //通过 data交换媒体数据
 video.videoData = data;
-video.fileExtension = ".mov"; //视频data需要提供正确的文件扩展名
+video.fileExtension = "mov"; //视频data需要提供正确的文件扩展名
 
-//通过PHAsset 交换数据
+//或通过PHAsset 交换数据
 //video.asset = asset;
 
 [req append:image]
