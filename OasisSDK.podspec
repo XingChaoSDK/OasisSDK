@@ -31,15 +31,15 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  s.vendored_library = 'OasisSDK/Classes/libs/*.a'
+#  s.vendored_library = 'OasisSDK/Classes/libs/*.a'
   s.static_framework = true
-  s.source_files = 'OasisSDK/Classes/**/*'
-  
+#  s.source_files = 'OasisSDK/Classes/**/*'
+  s.vendored_frameworks = "OasisSDK/Classes/Frameworks/OasisSDK.framework"
   # s.resource_bundles = {
   #   'OasisSDK' => ['OasisSDK/Assets/*.png']
   # }
 
-  s.public_header_files = 'OasisSDK/Classes/include/*.h'
+#  s.public_header_files = 'OasisSDK/Classes/include/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

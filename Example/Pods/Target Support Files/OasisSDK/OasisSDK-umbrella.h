@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "OasisSDK.h"
+#import <OasisSDK/OasisSDK.h>
 
 FOUNDATION_EXPORT double OasisSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char OasisSDKVersionString[];

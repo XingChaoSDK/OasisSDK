@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F15E7BDE1BE128415B8C77E2BB90B7C /* libOasisSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFD59C88C92051503886452F033AA /* libOasisSDK.a */; };
 		25408F6C0BA47BD1754DE392DAFBFEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		284A454DB95EFF63E59127DBC943065C /* OasisSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C29475169F3DB83AB992ABE90F832 /* OasisSDK-dummy.m */; };
 		346B5C4477E6E90557ADAB7FD64B3C96 /* Pods-OasisSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C3FFD6D79EE287164671EEFE71AD5C /* Pods-OasisSDK_Tests-dummy.m */; };
 		4158ED2E19BE1C570DACC7B1B39A1991 /* Pods-OasisSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5E8203F858112BED2508E25AEA630D /* Pods-OasisSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0824D8023ED0071F3FBB6DD31426F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9FC1C54341A79E20842658A4A2406110 /* OasisSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB5AD2AC41B3635CD9077015DFEC97C /* OasisSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB71374C06FDC1B190D30134B26F9D0E /* OasisSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA35ADDE430D239A1233F24BF6D456E2 /* OasisSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,19 +36,17 @@
 		7120DB024304FB15DFBFBA7F337E9A63 /* OasisSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OasisSDK.modulemap; sourceTree = "<group>"; };
 		78F1EEA6A0B567FA912BAAF69894A892 /* OasisSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OasisSDK-Info.plist"; sourceTree = "<group>"; };
 		82C3FFD6D79EE287164671EEFE71AD5C /* Pods-OasisSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OasisSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		99CB0399902399AACB8ECCF9FD0057DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9BEB95ED89CABD52C949606016D744F4 /* OasisSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OasisSDK.framework; path = OasisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABB5AD2AC41B3635CD9077015DFEC97C /* OasisSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OasisSDK.h; sourceTree = "<group>"; };
-		B406DD97402D15B5D575FDA2BFC9BC3E /* OasisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OasisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OasisSDK_Tests.framework; path = "Pods-OasisSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51C38C14F42CA2096128144A99337A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99CB0399902399AACB8ECCF9FD0057DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9BEB95ED89CABD52C949606016D744F4 /* OasisSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OasisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B406DD97402D15B5D575FDA2BFC9BC3E /* OasisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OasisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OasisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51C38C14F42CA2096128144A99337A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DA35ADDE430D239A1233F24BF6D456E2 /* OasisSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OasisSDK-umbrella.h"; sourceTree = "<group>"; };
 		DA5E8203F858112BED2508E25AEA630D /* Pods-OasisSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OasisSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E320BAD495DC0F35F702588510EC9B3B /* Pods-OasisSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OasisSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		E50FACDDC63BC0C2B0EF2C0E7B5781DB /* Pods-OasisSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OasisSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E565CAAA1D4E102686551AA70429353B /* Pods-OasisSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OasisSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF5AFD59C88C92051503886452F033AA /* libOasisSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libOasisSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +76,6 @@
 				C8F74A65C13A4D3F1415F1ABD6543838 /* Pods_OasisSDK_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		181C5183262BC321B89634907A2925B1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1C17806FEC7774D0C8F4B5C6B5273F6A /* Pod */ = {
@@ -145,21 +134,9 @@
 			path = "Target Support Files/Pods-OasisSDK_Tests";
 			sourceTree = "<group>";
 		};
-		A6137A8C04A0D2BFA1A25274BAE13E1A /* include */ = {
-			isa = PBXGroup;
-			children = (
-				ABB5AD2AC41B3635CD9077015DFEC97C /* OasisSDK.h */,
-			);
-			name = include;
-			path = OasisSDK/Classes/include;
-			sourceTree = "<group>";
-		};
 		B6D47BF42B568A953FE09D13CD1ABD36 /* OasisSDK */ = {
 			isa = PBXGroup;
 			children = (
-				181C5183262BC321B89634907A2925B1 /* Frameworks */,
-				A6137A8C04A0D2BFA1A25274BAE13E1A /* include */,
-				F1D22287095296B33C4DA9A38138BFDC /* libs */,
 				1C17806FEC7774D0C8F4B5C6B5273F6A /* Pod */,
 				2A86C5D8A69C63F81ED43CA77DAFAC88 /* Support Files */,
 			);
@@ -194,15 +171,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1D22287095296B33C4DA9A38138BFDC /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				EF5AFD59C88C92051503886452F033AA /* libOasisSDK.a */,
-			);
-			name = libs;
-			path = OasisSDK/Classes/libs;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -219,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB71374C06FDC1B190D30134B26F9D0E /* OasisSDK-umbrella.h in Headers */,
-				9FC1C54341A79E20842658A4A2406110 /* OasisSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F15E7BDE1BE128415B8C77E2BB90B7C /* libOasisSDK.a in Sources */,
 				284A454DB95EFF63E59127DBC943065C /* OasisSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,8 +454,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
