@@ -14,14 +14,14 @@ OasisSDK 为第三方应用提供了简单易用的绿洲API调用服务，使�
 
 1. 在Podfile对应的target中，添加pod 'OasisSDK'。
 2. 运行 `pod install ` 或者 `pod update`。
-3. 引入头文件 #import "OasisSDK.h"。
+3. 引入头文件 #import <OasisSDK/OasisSDK.h>。
 
 * 手动导入
 
-1. 下载文件夹 OasisSDK/Classes 下的 include 和libs文件夹。
-2. 将 include 和libs添加到你的工程中。
+1. 下载文件夹 OasisSDK/Classes/frameworks 下的 OasisSDK.framework文件。
+2. 将 OasisSDK.framework 添加到你的工程中。
 3. 在Build Settings->Other Linker Flags 中添加 `-ObjC` 和 `-all_load`。
-3. 引入头文件 #import "OasisSDK.h"。
+3. 引入头文件 #import <OasisSDK/OasisSDK.h>。
 
 ## 使用
 
